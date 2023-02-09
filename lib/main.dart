@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:webtoon_practice/screens/home_screen.dart';
+import 'package:webtoon_practice/services/api_service.dart';
 
 void main() {
-  runApp(App());
+  runApp(const App());
 }
 
 class App extends StatelessWidget {
